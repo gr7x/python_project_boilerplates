@@ -2,8 +2,8 @@
 import cv2
 import numpy as np
 
-cap = cv2.VideoCapture('people-walking.mp4')
-#cap = cv2.VideoCapture(0)
+#cap = cv2.VideoCapture('people-walking.mp4')
+cap = cv2.VideoCapture(0)
 
 fgbd = cv2.createBackgroundSubtractorMOG2()
 
